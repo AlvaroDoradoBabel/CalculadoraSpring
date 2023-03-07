@@ -21,7 +21,7 @@ public class ConsoleReader {
         int n1,n2;
         int opcion = 1;
         String entradaConsola;
-        while(opcion!=0) {
+        while(opcion!=5) {
             System.out.println("Menu por consola");
             System.out.println("1.- Sumar");
             System.out.println("2.- Restar");
@@ -38,7 +38,6 @@ public class ConsoleReader {
             switch (opcion) {
                 case 5:
                     System.out.println("Hasta luego");
-                    opcion = 0;
                     break;
                 case 1:
                     System.out.println("Ingrese numero");
